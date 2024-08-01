@@ -15,11 +15,8 @@ def checkInput():
     if not trans:
         tkinter.messagebox.showinfo("DUMB!!", "No Escribiste nada PERRUUUU!!!")
     else:
-        #button.config(command=lambda: buscador_entry.delete(0, END))
         translated_text = translate_to_english(trans)
         tkinter.messagebox.showinfo("You Entered", translated_text)
-        #label.configure(text=translated_text)
-        #button.config(command=lambda: buscador_entry.delete(0, END))
         
         
 
@@ -32,12 +29,5 @@ button.pack(side='right')
 text = Label(master, text="Que tradusco:").pack(side='left', padx=5)
 buscador_entry = Entry(master, bd=3)
 buscador_entry.pack(side='left', padx=4)
-
         
-   
-
-
-
-
-
 master.mainloop()
