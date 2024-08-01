@@ -29,12 +29,10 @@ master.geometry("350x50+400+300")
 master.config(bg="#6FAFE7")
 button = Button(master, text="Ingles", command=checkInput, height=1, width=10)
 button.pack(side='right')
-#button.config(command=lambda: buscador_entry.delete(0, END))
 text = Label(master, text="Que tradusco:").pack(side='left', padx=5)
 buscador_entry = Entry(master, bd=3)
 buscador_entry.pack(side='left', padx=4)
-##label=Label(master, text="", font=("Courier 22 bold"))
-#label.pack()
+
         
    
 
